@@ -4,7 +4,7 @@ namespace DotNetTool;
 
 public class ProcessStarter : IProcessStarter
 {
-	private Process process;
+	private Process? process;
 
 	public void StartProcess(
 		string executeablePath
